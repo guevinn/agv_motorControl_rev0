@@ -522,6 +522,48 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.508,
+        "diff_pair_gap": 0.508,
+        "diff_pair_width": 2.54,
+        "microvia_diameter": 0.254,
+        "microvia_drill": 0.762,
+        "name": "Battery",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 2.54,
+        "via_diameter": 1.524,
+        "via_drill": 0.508
+      },
+      {
+        "clearance": 0.254,
+        "diff_pair_gap": 0.254,
+        "diff_pair_width": 0.254,
+        "microvia_diameter": 0.127,
+        "microvia_drill": 0.254,
+        "name": "Signal",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.254,
+        "via_diameter": 0.254,
+        "via_drill": 0.127
+      },
+      {
+        "clearance": 0.254,
+        "diff_pair_gap": 0.254,
+        "diff_pair_width": 0.508,
+        "microvia_diameter": 0.254,
+        "microvia_drill": 0.127,
+        "name": "VCC",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.508,
+        "via_diameter": 0.254,
+        "via_drill": 0.127
       }
     ],
     "meta": {
