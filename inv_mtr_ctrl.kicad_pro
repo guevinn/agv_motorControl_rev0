@@ -51,7 +51,13 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -117,20 +123,20 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.0254,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.25,
-        "min_microvia_diameter": 0.2,
-        "min_microvia_drill": 0.1,
+        "min_hole_to_hole": 0.2,
+        "min_microvia_diameter": 0.25,
+        "min_microvia_drill": 0.2,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.0,
+        "min_track_width": 0.1524,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
@@ -180,7 +186,21 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.1524,
+        0.3048,
+        0.381,
+        0.508,
+        0.762,
+        1.016,
+        1.27,
+        1.524,
+        2.032,
+        2.54,
+        5.08,
+        7.62
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -207,7 +227,36 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.3,
+          "drill": 0.25
+        },
+        {
+          "diameter": 0.5,
+          "drill": 0.25
+        },
+        {
+          "diameter": 1.0,
+          "drill": 0.9
+        },
+        {
+          "diameter": 2.0,
+          "drill": 1.8
+        },
+        {
+          "diameter": 3.0,
+          "drill": 2.7
+        },
+        {
+          "diameter": 6.3,
+          "drill": 6.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -226,132 +275,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "footprint_link_issues|304800|1270000|04d77ec7-47a5-48df-84bb-e33ccd95d905|00000000-0000-0000-0000-000000000000|||",
-        "Custom screw terminal footprint"
-      ],
-      [
-        "footprint_link_issues|304800|1346200|1925d8e5-6781-40a0-bcc3-8b8286a8a12a|00000000-0000-0000-0000-000000000000|||",
-        "Custom screw terminal footprint"
-      ],
-      [
-        "footprint_link_issues|304800|1422400|93df9444-cc31-4d9e-a1d7-8cdd68dfebcc|00000000-0000-0000-0000-000000000000|||",
-        "Custom screw terminal connection"
-      ],
-      [
-        "footprint_link_issues|330200|1270000|89fe81f9-9004-4895-adf0-c4dc21c3ca40|00000000-0000-0000-0000-000000000000|||",
-        ""
-      ],
-      [
-        "footprint_link_issues|330200|1346200|fd4ef0cc-e27b-49ea-92b7-afa06a91d6a9|00000000-0000-0000-0000-000000000000|||",
-        ""
-      ],
-      [
-        "footprint_link_issues|330200|1422400|b052a2c8-9d77-4ea0-b74e-c2d89c57b74e|00000000-0000-0000-0000-000000000000|||",
-        ""
-      ],
-      [
-        "footprint_link_issues|546100|1270000|04d77ec7-47a5-48df-84bb-e33ccd95d905|00000000-0000-0000-0000-000000000000|||",
-        ""
-      ],
-      [
-        "footprint_link_issues|546100|1346200|1925d8e5-6781-40a0-bcc3-8b8286a8a12a|00000000-0000-0000-0000-000000000000|||",
-        ""
-      ],
-      [
-        "footprint_link_issues|546100|1422400|93df9444-cc31-4d9e-a1d7-8cdd68dfebcc|00000000-0000-0000-0000-000000000000|||",
-        ""
-      ],
-      [
-        "footprint_link_issues|609600|1270000|89fe81f9-9004-4895-adf0-c4dc21c3ca40|00000000-0000-0000-0000-000000000000|||",
-        "Custom screw terminal footprint"
-      ],
-      [
-        "footprint_link_issues|609600|1346200|fd4ef0cc-e27b-49ea-92b7-afa06a91d6a9|00000000-0000-0000-0000-000000000000|||",
-        ""
-      ],
-      [
-        "footprint_link_issues|609600|1422400|b052a2c8-9d77-4ea0-b74e-c2d89c57b74e|00000000-0000-0000-0000-000000000000|||",
-        ""
-      ],
-      [
-        "lib_symbol_mismatch|1295400|685800|0ca13263-8a8a-43b6-b2b6-3bb74ae498ca|00000000-0000-0000-0000-000000000000|||",
-        ""
-      ],
-      [
-        "lib_symbol_mismatch|1524000|685800|03a738e7-a7b6-421c-957f-2b1b3f5158bf|00000000-0000-0000-0000-000000000000|||",
-        "KiCad zener looks like shit so i fixed it"
-      ],
-      [
-        "lib_symbol_mismatch|1765300|685800|374e495a-4428-451d-b471-5b46ce6cf286|00000000-0000-0000-0000-000000000000|||",
-        "KiCad zener looks like shit so I fixed it"
-      ],
-      [
-        "multiple_net_names|1244600|457200|3e944ada-c620-4c15-b84c-b091f7e17436|6f89f8c8-42e6-432c-8524-60b2ef7a7019|/ecd8c664-2ccf-48f6-be04-af626c81ca95|/ecd8c664-2ccf-48f6-be04-af626c81ca95|/ecd8c664-2ccf-48f6-be04-af626c81ca95",
-        "same net"
-      ],
-      [
-        "multiple_net_names|1460500|457200|0d610688-80c4-4d56-9048-2b193ac1799f|81060568-f7da-4192-8ddd-b38987d97015|/ecd8c664-2ccf-48f6-be04-af626c81ca95|/ecd8c664-2ccf-48f6-be04-af626c81ca95|/ecd8c664-2ccf-48f6-be04-af626c81ca95",
-        "same net"
-      ],
-      [
-        "multiple_net_names|1473200|457200|0d610688-80c4-4d56-9048-2b193ac1799f|81060568-f7da-4192-8ddd-b38987d97015|/ecd8c664-2ccf-48f6-be04-af626c81ca95|/ecd8c664-2ccf-48f6-be04-af626c81ca95|/ecd8c664-2ccf-48f6-be04-af626c81ca95",
-        ""
-      ],
-      [
-        "multiple_net_names|1485900|800100|1cdc9643-3b2e-451f-9c5b-cf99635ca05b|d501b610-9919-46e8-a10d-421bcc798c96|/ecd8c664-2ccf-48f6-be04-af626c81ca95|/ecd8c664-2ccf-48f6-be04-af626c81ca95|/ecd8c664-2ccf-48f6-be04-af626c81ca95",
-        "LSS is placeholder net for CSR cathode"
-      ],
-      [
-        "multiple_net_names|1701800|457200|700f6ba4-6c83-4b98-995f-f6540a32471f|058fc61b-d6f7-4760-a015-af4866918813|/ecd8c664-2ccf-48f6-be04-af626c81ca95|/ecd8c664-2ccf-48f6-be04-af626c81ca95|/ecd8c664-2ccf-48f6-be04-af626c81ca95",
-        "same net"
-      ],
-      [
-        "multiple_net_names|406400|330200|4dd7481e-9ee0-4729-8c3f-83d7b807c1e1|4791ef7b-16b0-4dd6-bfb5-66d35d7517d1|/ecd8c664-2ccf-48f6-be04-af626c81ca95|/ecd8c664-2ccf-48f6-be04-af626c81ca95|/ecd8c664-2ccf-48f6-be04-af626c81ca95",
-        "LSS is placeholder net for future design iteration with CSR"
-      ],
-      [
-        "multiple_net_names|749300|609600|0d610688-80c4-4d56-9048-2b193ac1799f|d6f07d65-7991-485c-9183-6b6b03d9c818|/ecd8c664-2ccf-48f6-be04-af626c81ca95|/ecd8c664-2ccf-48f6-be04-af626c81ca95|/ecd8c664-2ccf-48f6-be04-af626c81ca95",
-        "Same net"
-      ],
-      [
-        "multiple_net_names|749300|635000|73d89c15-770e-4f81-8a24-2117d64e4999|afc6df35-674d-4dfa-8177-7d378d3262b0|/ecd8c664-2ccf-48f6-be04-af626c81ca95|/ecd8c664-2ccf-48f6-be04-af626c81ca95|/ecd8c664-2ccf-48f6-be04-af626c81ca95",
-        "Same net"
-      ],
-      [
-        "multiple_net_names|787400|584200|a1806bb6-7f7c-445b-860d-9d4b84fb6ba6|89e6e174-a6d5-4438-b0d7-4d93179d314d|/ecd8c664-2ccf-48f6-be04-af626c81ca95|/ecd8c664-2ccf-48f6-be04-af626c81ca95|/ecd8c664-2ccf-48f6-be04-af626c81ca95",
-        "Same net"
-      ],
-      [
-        "power_pin_not_driven|215900|1270000|4b8a237b-3e34-4151-bfaf-e904785339b1|00000000-0000-0000-0000-000000000000|/ecd8c664-2ccf-48f6-be04-af626c81ca95|/ecd8c664-2ccf-48f6-be04-af626c81ca95|",
-        ""
-      ],
-      [
-        "power_pin_not_driven|215900|1346200|1ac486b8-c938-4736-9722-ea88737074f8|00000000-0000-0000-0000-000000000000|/ecd8c664-2ccf-48f6-be04-af626c81ca95|/ecd8c664-2ccf-48f6-be04-af626c81ca95|",
-        ""
-      ],
-      [
-        "power_pin_not_driven|215900|1422400|8cf4f336-0c27-49bc-89fa-990fb11ac122|00000000-0000-0000-0000-000000000000|/ecd8c664-2ccf-48f6-be04-af626c81ca95|/ecd8c664-2ccf-48f6-be04-af626c81ca95|",
-        ""
-      ],
-      [
-        "power_pin_not_driven|457200|330200|ad97183b-99c8-4b68-9128-fcff3bb939cf|00000000-0000-0000-0000-000000000000|/ecd8c664-2ccf-48f6-be04-af626c81ca95|/ecd8c664-2ccf-48f6-be04-af626c81ca95|",
-        "External Power"
-      ],
-      [
-        "power_pin_not_driven|495300|1270000|4b8a237b-3e34-4151-bfaf-e904785339b1|00000000-0000-0000-0000-000000000000|/ecd8c664-2ccf-48f6-be04-af626c81ca95|/ecd8c664-2ccf-48f6-be04-af626c81ca95|",
-        "External Power"
-      ],
-      [
-        "power_pin_not_driven|495300|1346200|1ac486b8-c938-4736-9722-ea88737074f8|00000000-0000-0000-0000-000000000000|/ecd8c664-2ccf-48f6-be04-af626c81ca95|/ecd8c664-2ccf-48f6-be04-af626c81ca95|",
-        "External power input"
-      ],
-      [
-        "power_pin_not_driven|495300|1422400|8cf4f336-0c27-49bc-89fa-990fb11ac122|00000000-0000-0000-0000-000000000000|/ecd8c664-2ccf-48f6-be04-af626c81ca95|/ecd8c664-2ccf-48f6-be04-af626c81ca95|",
-        ""
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -576,7 +500,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "drv8323_dev.kicad_pro",
+    "filename": "inv_mtr_ctrl.kicad_pro",
     "version": 3
   },
   "net_settings": {

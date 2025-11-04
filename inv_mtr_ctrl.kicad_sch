@@ -1185,23 +1185,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -10.16 63.5 0)
+			(property "Reference" "U1"
+				(at -9.906 64.008 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "~"
+				(at 0 63.5 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Texas Instruments:DRV8328"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1745,7 +1745,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "29"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3261,8 +3261,8 @@
 		(uuid 8749fedf-96e4-4709-9ce0-d8df5a4d57e8)
 	)
 	(rectangle
-		(start 109.22 74.295)
-		(end 128.905 91.44)
+		(start 108.712 75.311)
+		(end 128.397 92.456)
 		(stroke
 			(width 0)
 			(type solid)
@@ -3408,7 +3408,7 @@
 	)
 	(text "RESISTOR RATIO\nMUST BE TUNED\nAFTER TESTING\nCURRENT R VALUES\nTRIP @ 335 mV\n20 A trip would be\n@ 134 mV"
 		(exclude_from_sim no)
-		(at 109.728 82.804 0)
+		(at 109.22 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13184,7 +13184,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Texas Instruments:DRV8328"
+		(property "Footprint" "Texas Instruments:DRV8328_4mm_x_4mm_WQFN"
 			(at 57.15 90.17 0)
 			(effects
 				(font
@@ -13250,7 +13250,7 @@
 		(pin "13"
 			(uuid "f05c288e-7c64-4014-ba71-0b1487915535")
 		)
-		(pin ""
+		(pin "29"
 			(uuid "9907ef0c-edf6-40b4-a0a4-191f65a2ba9d")
 		)
 		(pin "23"
