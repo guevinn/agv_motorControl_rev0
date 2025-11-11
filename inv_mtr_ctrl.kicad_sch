@@ -7112,7 +7112,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0ddeecc9-846d-4ff1-b923-fc6b5a714cd5")
-		(property "Reference" "TP10"
+		(property "Reference" "INLC"
 			(at 91.948 119.38 90)
 			(effects
 				(font
@@ -7164,7 +7164,7 @@
 		(instances
 			(project "drv8323_dev"
 				(path "/ecd8c664-2ccf-48f6-be04-af626c81ca95"
-					(reference "TP10")
+					(reference "INLC")
 					(unit 1)
 				)
 			)
@@ -7695,7 +7695,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "24133cf1-d0ce-4fe7-a8ad-ba85cc4815b0")
-		(property "Reference" "TP12"
+		(property "Reference" "INHB"
 			(at 91.948 124.46 90)
 			(effects
 				(font
@@ -7747,7 +7747,7 @@
 		(instances
 			(project "drv8323_dev"
 				(path "/ecd8c664-2ccf-48f6-be04-af626c81ca95"
-					(reference "TP12")
+					(reference "INHB")
 					(unit 1)
 				)
 			)
@@ -8114,7 +8114,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3503596e-580f-435f-922c-403c3101649e")
-		(property "Reference" "TP13"
+		(property "Reference" "INHC"
 			(at 91.948 127 90)
 			(effects
 				(font
@@ -8166,7 +8166,7 @@
 		(instances
 			(project "drv8323_dev"
 				(path "/ecd8c664-2ccf-48f6-be04-af626c81ca95"
-					(reference "TP13")
+					(reference "INHC")
 					(unit 1)
 				)
 			)
@@ -9365,7 +9365,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "584572b0-9e33-4291-a1d5-936620433eef")
-		(property "Reference" "TP15"
+		(property "Reference" "nSLEEP"
 			(at 91.948 132.08 90)
 			(effects
 				(font
@@ -9417,7 +9417,7 @@
 		(instances
 			(project "drv8323_dev"
 				(path "/ecd8c664-2ccf-48f6-be04-af626c81ca95"
-					(reference "TP15")
+					(reference "nSLEEP")
 					(unit 1)
 				)
 			)
@@ -9433,7 +9433,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5b02b0b0-23e8-426f-8f7e-462c9356e32b")
-		(property "Reference" "TP14"
+		(property "Reference" "nFAULT"
 			(at 91.948 129.54 90)
 			(effects
 				(font
@@ -9485,7 +9485,7 @@
 		(instances
 			(project "drv8323_dev"
 				(path "/ecd8c664-2ccf-48f6-be04-af626c81ca95"
-					(reference "TP14")
+					(reference "nFAULT")
 					(unit 1)
 				)
 			)
@@ -9705,7 +9705,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6285947f-d03d-43a5-b7c2-5fb5a91d4b9d")
-		(property "Reference" "TP11"
+		(property "Reference" "INHA"
 			(at 91.948 121.92 90)
 			(effects
 				(font
@@ -9757,7 +9757,7 @@
 		(instances
 			(project "drv8323_dev"
 				(path "/ecd8c664-2ccf-48f6-be04-af626c81ca95"
-					(reference "TP11")
+					(reference "INHA")
 					(unit 1)
 				)
 			)
@@ -10192,7 +10192,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "73070d7d-a327-485f-a85c-36b37514d5a6")
-		(property "Reference" "TP9"
+		(property "Reference" "INLB"
 			(at 91.948 116.84 90)
 			(effects
 				(font
@@ -10244,7 +10244,7 @@
 		(instances
 			(project "drv8323_dev"
 				(path "/ecd8c664-2ccf-48f6-be04-af626c81ca95"
-					(reference "TP9")
+					(reference "INLB")
 					(unit 1)
 				)
 			)
@@ -11802,7 +11802,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b1c51aa2-6356-4ee5-894a-a70e7808ecf8")
-		(property "Reference" "TP16"
+		(property "Reference" "GND"
 			(at 91.948 134.62 90)
 			(effects
 				(font
@@ -11854,7 +11854,7 @@
 		(instances
 			(project "drv8323_dev"
 				(path "/ecd8c664-2ccf-48f6-be04-af626c81ca95"
-					(reference "TP16")
+					(reference "GND")
 					(unit 1)
 				)
 			)
@@ -12081,7 +12081,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "be97e1f0-0e0c-4be5-83e2-ea461f93c7c3")
-		(property "Reference" "TP7"
+		(property "Reference" "VCC"
 			(at 91.948 111.76 90)
 			(effects
 				(font
@@ -12133,7 +12133,7 @@
 		(instances
 			(project "drv8323_dev"
 				(path "/ecd8c664-2ccf-48f6-be04-af626c81ca95"
-					(reference "TP7")
+					(reference "VCC")
 					(unit 1)
 				)
 			)
@@ -12284,7 +12284,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c0950b09-f39c-4e92-a57e-5a3d72310a25")
-		(property "Reference" "TP8"
+		(property "Reference" "INLA"
 			(at 91.948 114.3 90)
 			(effects
 				(font
@@ -12336,7 +12336,7 @@
 		(instances
 			(project "drv8323_dev"
 				(path "/ecd8c664-2ccf-48f6-be04-af626c81ca95"
-					(reference "TP8")
+					(reference "INLA")
 					(unit 1)
 				)
 			)

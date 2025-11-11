@@ -15284,7 +15284,7 @@
 		(descr "SMD rectangular pad as test Point, square 1.0mm side length")
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "VCC"
-			(at -1.27 -1.27 0)
+			(at -1.905 -1.778 0)
 			(layer "F.SilkS")
 			(uuid "762f962b-01be-4820-964d-4cc549126517")
 			(effects
@@ -21280,7 +21280,7 @@
 	(segment
 		(start 127 66.548)
 		(end 127 68.11)
-		(width 0.3048)
+		(width 0.2032)
 		(layer "F.Cu")
 		(net 2)
 		(uuid "16ae1b16-7b24-43ee-8e7e-c5243a79d0e2")
@@ -21328,7 +21328,7 @@
 	(segment
 		(start 127 68.11)
 		(end 131.66 72.77)
-		(width 0.3048)
+		(width 0.2032)
 		(layer "F.Cu")
 		(net 2)
 		(uuid "421b32c2-3603-45e2-a316-df0927010051")
