@@ -3189,6 +3189,19 @@
 		)
 	)
 	(rectangle
+		(start 94.869 30.353)
+		(end 117.094 38.608)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 59 255 0 1)
+		)
+		(uuid 245d8266-f213-4462-b11c-cc762a3607af)
+	)
+	(rectangle
 		(start 234.95 16.51)
 		(end 281.94 88.9)
 		(stroke
@@ -3329,6 +3342,17 @@
 			)
 		)
 		(uuid "23b82a72-cbf3-445d-8147-04efe84d5a35")
+	)
+	(text "CAPACITORS MUST BE\nRATED FOR AT LEAST\nVDC+(2*Vth) "
+		(exclude_from_sim no)
+		(at 95.885 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "259f7904-a4bd-4ed6-9ef0-eb68c8c4b104")
 	)
 	(text "TOP VIEW DRV25 CONTROLLER"
 		(exclude_from_sim no)
@@ -10874,7 +10898,7 @@
 				)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "10u"
 			(at 81.28 25.4 90)
 			(effects
 				(font
@@ -13356,7 +13380,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
 			(at 194.31 45.72 0)
 			(effects
 				(font
