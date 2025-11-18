@@ -149,6 +149,196 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Screw_Terminal_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Screw_Terminal_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "screw terminal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TerminalBlock*:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Screw_Terminal_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -3274,8 +3464,8 @@
 		(uuid 8749fedf-96e4-4709-9ce0-d8df5a4d57e8)
 	)
 	(rectangle
-		(start 108.712 75.311)
-		(end 128.397 92.456)
+		(start 115.062 75.311)
+		(end 134.747 92.456)
 		(stroke
 			(width 0)
 			(type solid)
@@ -3432,7 +3622,7 @@
 	)
 	(text "RESISTOR RATIO\nMUST BE TUNED\nAFTER TESTING\nCURRENT R VALUES\nTRIP @ 335 mV\n20 A trip would be\n@ 134 mV"
 		(exclude_from_sim no)
-		(at 109.22 83.82 0)
+		(at 115.57 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3640,6 +3830,12 @@
 		(uuid "90f0c348-d7e2-47aa-85fc-3470e34bbe92")
 	)
 	(junction
+		(at 26.67 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9583c1eb-588f-4c8d-82b5-9a1f31edaa1a")
+	)
+	(junction
 		(at 160.02 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3694,7 +3890,7 @@
 		(uuid "c12f1288-6655-4de8-9ef1-a69af1cede7e")
 	)
 	(junction
-		(at 107.95 66.04)
+		(at 114.3 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c29c3e39-f51e-4894-b744-49b39a961295")
@@ -3831,16 +4027,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 66.04) (xy 107.95 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "074b50d0-62f4-4051-925a-20e4cc13ce1f")
-	)
-	(wire
-		(pts
 			(xy 241.3 25.4) (xy 255.27 25.4)
 		)
 		(stroke
@@ -3921,7 +4107,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 63.5) (xy 97.79 63.5)
+			(xy 68.58 63.5) (xy 101.6 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3981,7 +4167,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 77.47) (xy 107.95 74.93)
+			(xy 114.3 77.47) (xy 114.3 74.93)
 		)
 		(stroke
 			(width 0)
@@ -4161,7 +4347,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 64.77) (xy 107.95 66.04)
+			(xy 114.3 64.77) (xy 114.3 66.04)
 		)
 		(stroke
 			(width 0)
@@ -4188,6 +4374,16 @@
 			(type default)
 		)
 		(uuid "2ee6a29a-cd6f-4d8a-9cab-efeeedd6ae5f")
+	)
+	(wire
+		(pts
+			(xy 68.58 66.04) (xy 114.3 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f091e20-645b-44a0-ae7e-b0c4d5958c02")
 	)
 	(wire
 		(pts
@@ -4351,7 +4547,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 36.83) (xy 90.17 36.83)
+			(xy 68.58 36.83) (xy 91.44 36.83)
 		)
 		(stroke
 			(width 0)
@@ -4541,7 +4737,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 142.24) (xy 27.94 142.24)
+			(xy 21.59 142.24) (xy 26.67 142.24)
 		)
 		(stroke
 			(width 0)
@@ -4571,7 +4767,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 36.83) (xy 90.17 41.91)
+			(xy 91.44 36.83) (xy 91.44 41.91)
 		)
 		(stroke
 			(width 0)
@@ -4638,6 +4834,16 @@
 			(type default)
 		)
 		(uuid "5c569f1b-70f6-4c92-9604-25c165c0d194")
+	)
+	(wire
+		(pts
+			(xy 88.9 77.47) (xy 114.3 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c955984-445e-49f0-a897-d652736d1aa9")
 	)
 	(wire
 		(pts
@@ -4791,7 +4997,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 39.37) (xy 68.58 39.37)
+			(xy 101.6 39.37) (xy 68.58 39.37)
 		)
 		(stroke
 			(width 0)
@@ -5041,7 +5247,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 60.96) (xy 90.17 60.96)
+			(xy 68.58 60.96) (xy 91.44 60.96)
 		)
 		(stroke
 			(width 0)
@@ -5161,16 +5367,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 77.47) (xy 107.95 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95531579-d8e6-4b17-b3d6-a4a5d3c4befb")
-	)
-	(wire
-		(pts
 			(xy 68.58 54.61) (xy 78.74 54.61)
 		)
 		(stroke
@@ -5208,6 +5404,16 @@
 			(type default)
 		)
 		(uuid "9e7ab1b3-3117-44db-8843-ee9d350700df")
+	)
+	(wire
+		(pts
+			(xy 26.67 137.16) (xy 26.67 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e85acdc-958c-43c1-8740-ce2305d1cbb5")
 	)
 	(wire
 		(pts
@@ -5251,7 +5457,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 49.53) (xy 90.17 60.96)
+			(xy 91.44 49.53) (xy 91.44 60.96)
 		)
 		(stroke
 			(width 0)
@@ -5471,7 +5677,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 63.5) (xy 97.79 53.34)
+			(xy 101.6 63.5) (xy 101.6 52.07)
 		)
 		(stroke
 			(width 0)
@@ -5588,6 +5794,16 @@
 			(type default)
 		)
 		(uuid "d983d4d8-aa57-404a-8fdb-cc11ef35e563")
+	)
+	(wire
+		(pts
+			(xy 27.94 137.16) (xy 26.67 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9cdd4b9-3568-4e56-b730-a1a30806f03b")
 	)
 	(wire
 		(pts
@@ -5711,7 +5927,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 45.72) (xy 97.79 39.37)
+			(xy 101.6 44.45) (xy 101.6 39.37)
 		)
 		(stroke
 			(width 0)
@@ -5811,7 +6027,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 67.31) (xy 107.95 66.04)
+			(xy 114.3 67.31) (xy 114.3 66.04)
 		)
 		(stroke
 			(width 0)
@@ -5868,6 +6084,16 @@
 			(type default)
 		)
 		(uuid "f9408cb0-642c-4edd-8c69-b89c36315a14")
+	)
+	(wire
+		(pts
+			(xy 26.67 142.24) (xy 27.94 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9851529-2a2a-4f9e-9378-6c9f87e411dc")
 	)
 	(wire
 		(pts
@@ -7911,7 +8137,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 107.95 57.15 0)
+		(at 114.3 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7920,7 +8146,7 @@
 		(fields_autoplaced yes)
 		(uuid "2e66cc87-1ed4-4cdb-94d5-6aa6d04743b6")
 		(property "Reference" "#PWR012"
-			(at 107.95 60.96 0)
+			(at 114.3 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7929,7 +8155,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 107.95 52.07 0)
+			(at 114.3 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7937,7 +8163,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 57.15 0)
+			(at 114.3 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7946,7 +8172,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 57.15 0)
+			(at 114.3 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7955,7 +8181,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 107.95 57.15 0)
+			(at 114.3 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9030,7 +9256,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 107.95 71.12 0)
+		(at 114.3 71.12 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9040,7 +9266,7 @@
 		(fields_autoplaced yes)
 		(uuid "4bce900a-acc3-4e1d-a4f9-5ae1d43d6117")
 		(property "Reference" "R4"
-			(at 105.41 69.8499 0)
+			(at 111.76 69.8499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9049,7 +9275,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 105.41 72.3899 0)
+			(at 111.76 72.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9058,7 +9284,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 108.966 70.866 90)
+			(at 115.316 70.866 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9067,7 +9293,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 107.95 71.12 0)
+			(at 114.3 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9076,7 +9302,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 107.95 71.12 0)
+			(at 114.3 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9581,7 +9807,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 107.95 60.96 0)
+		(at 114.3 60.96 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9591,7 +9817,7 @@
 		(fields_autoplaced yes)
 		(uuid "5cd24b44-a74f-48d8-a466-952572414889")
 		(property "Reference" "R3"
-			(at 105.41 59.6899 0)
+			(at 111.76 59.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9600,7 +9826,7 @@
 			)
 		)
 		(property "Value" "141k"
-			(at 105.41 62.2299 0)
+			(at 111.76 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9609,7 +9835,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 108.966 60.706 90)
+			(at 115.316 60.706 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9618,7 +9844,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 107.95 60.96 0)
+			(at 114.3 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9627,7 +9853,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 107.95 60.96 0)
+			(at 114.3 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9932,6 +10158,77 @@
 			(project ""
 				(path "/ecd8c664-2ccf-48f6-be04-af626c81ca95"
 					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 33.02 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6dedb661-96c6-46a0-a272-72bfb6dcebad")
+		(property "Reference" "J2"
+			(at 35.56 135.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 35.56 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
+			(at 33.02 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 33.02 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d1d09f2d-6580-4557-9ae4-654502e1bf02")
+		)
+		(pin "2"
+			(uuid "c225469f-6566-447b-af51-414037f2d8a3")
+		)
+		(instances
+			(project ""
+				(path "/ecd8c664-2ccf-48f6-be04-af626c81ca95"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -11336,7 +11633,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 90.17 45.72 0)
+		(at 91.44 45.72 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11345,7 +11642,7 @@
 		(dnp no)
 		(uuid "9e4fce75-2bbb-430c-9d6e-22145afa0e90")
 		(property "Reference" "C6"
-			(at 96.774 44.196 0)
+			(at 97.79 44.704 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11354,7 +11651,7 @@
 			)
 		)
 		(property "Value" ".01u"
-			(at 97.536 46.736 0)
+			(at 98.552 46.482 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11363,7 +11660,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 91.1352 41.91 0)
+			(at 92.4052 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11372,7 +11669,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 90.17 45.72 0)
+			(at 91.44 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11381,7 +11678,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, 2*VDC, X5R or X7R"
-			(at 90.17 45.72 0)
+			(at 91.44 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11886,7 +12183,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 97.79 49.53 0)
+		(at 101.6 48.26 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11895,7 +12192,7 @@
 		(dnp no)
 		(uuid "b418ffb0-2c99-4015-82d7-ad1af92306fb")
 		(property "Reference" "C7"
-			(at 104.394 48.006 0)
+			(at 108.204 46.736 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11904,7 +12201,7 @@
 			)
 		)
 		(property "Value" ".01u"
-			(at 105.156 50.292 0)
+			(at 109.22 49.022 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11913,7 +12210,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 98.7552 45.72 0)
+			(at 102.5652 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11922,7 +12219,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 97.79 49.53 0)
+			(at 101.6 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11931,7 +12228,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, 2*VDC, X5R or X7R"
-			(at 97.79 49.53 0)
+			(at 101.6 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13417,73 +13714,6 @@
 			(project ""
 				(path "/ecd8c664-2ccf-48f6-be04-af626c81ca95"
 					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x01")
-		(at 33.02 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fd4ef0cc-e27b-49ea-92b7-afa06a91d6a9")
-		(property "Reference" "J2"
-			(at 35.56 133.3499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "7799"
-			(at 35.56 135.8899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Screw Terminals:M4 30A"
-			(at 33.02 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 33.02 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 33.02 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "83b38e98-80a1-4f7b-8647-27c2b952bca8")
-		)
-		(instances
-			(project "drv8323_dev"
-				(path "/ecd8c664-2ccf-48f6-be04-af626c81ca95"
-					(reference "J2")
 					(unit 1)
 				)
 			)
